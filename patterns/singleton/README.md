@@ -9,3 +9,8 @@ We want to create a shopping cart for our e-commerce website, but we want to ens
 ## Solution 💡
 
 The Singleton pattern ensures that a class has only one instance, and provides a global point of access to that instance. The shopping cart will be implemented as a Singleton, so that there is only one instance of the cart throughout the website.
+
+## Resources 📚
+
+- [Refactoring guru](https://refactoring.guru/design-patterns/singleton)
+- [Christopher Okhravi video](https://www.youtube.com/watch?v=hUE_j6q0LTQ)
