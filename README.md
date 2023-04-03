@@ -20,7 +20,7 @@ To get started, simply clone this repository to your local machine and explore t
 
 ## 📚 Table of Contents
 
--[Singleton](patterns/singleton/README.md)
+- [Singleton](patterns/singleton/README.md)
 
 ## 🤝 Contributing
 
