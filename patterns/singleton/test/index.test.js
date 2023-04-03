@@ -1,7 +1,7 @@
 import { describe, it } from "node:test";
 import assert from "node:assert";
 
-import { ShoppingCart, shoppingCart2, shoppingCart3 } from "./index.js";
+import { ShoppingCart, shoppingCart2, shoppingCart3 } from "../index.js";
 
 describe("Singleton first solution", () => {
   it("should be the same instance", () => {
