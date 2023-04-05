@@ -5,13 +5,8 @@ class ScoreBoard {
   addScore(number) {
     this.score += number;
   }
-  getScore() {
-    return this.score;
-  }
 }
 
-const scoreBoard = new ScoreBoard();
-
 // Do not touch the code below
-
+const scoreBoard = new ScoreBoard();
 export { scoreBoard, ScoreBoard };
