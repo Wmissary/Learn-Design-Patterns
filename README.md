@@ -16,7 +16,7 @@ This repository is a collection of Node.js projects, each of which demonstrates 
 
 ## 🚀 Getting Started
 
-To get started, simply clone this repository to your local machine and explore the projects in the `projects` directory. Each project is a standalone Node.js application that demonstrates a specific design pattern.
+To get started, simply clone this repository to your local machine and explore the projects in the `Patterns` directory. Each project is a standalone Node.js application that demonstrates a specific design pattern.
 
 ## 📚 Table of Contents
 

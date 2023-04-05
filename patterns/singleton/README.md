@@ -117,12 +117,6 @@ The Singleton pattern requires special attention in a multi-threaded environment
 - [Refactoring guru](https://refactoring.guru/design-patterns/singleton)
 - [Christopher Okhravi video](https://www.youtube.com/watch?v=hUE_j6q0LTQ)
 
-## Practice 🏋️
+## Implementation example 🚀
 
-In exercice.js you will find a class called Scoreboard. This class has a constructor that initializes the score property to 0, and an addScore method that increments the score by the specified amount. You will implement the Singleton pattern to ensure that there is only ever one instance of the Scoreboard class.
-
-When you are done, you can run the validation with the following command:
-
-```bash
-npm run validate.js
-```
+- [Shopping cart](./index.js)
