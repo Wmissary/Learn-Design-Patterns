@@ -21,6 +21,7 @@ To get started, simply clone this repository to your local machine and explore t
 ## 📚 Table of Contents
 
 - [Singleton](patterns/singleton/)
+- [Strategy](patterns/strategy/)
 
 ## 🤝 Contributing
 
