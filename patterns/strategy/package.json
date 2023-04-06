@@ -1,0 +1,11 @@
+{
+  "name": "@learn-design-patterns/strategy",
+  "version": "1.0.0",
+  "description": "The Strategy pattern allows you to define a family of algorithms, encapsulate each one, and make them interchangeable at runtime. It lets the algorithm vary independently from clients that use it.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

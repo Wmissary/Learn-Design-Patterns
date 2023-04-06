@@ -78,3 +78,5 @@ In this example, we have a strategy object that has a method. We also have a con
 - [Christopher Okhravi video](https://www.youtube.com/watch?v=v9ejT8FO-7I)
 
 ## Implementation example 🚀
+
+- [Game Character](./index.js)
