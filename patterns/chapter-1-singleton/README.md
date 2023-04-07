@@ -1,6 +1,10 @@
-# 🎓 Singleton Design Pattern 🎓
+# Chapter 1: Singleton 🎓
 
-The Singleton pattern ensures that a class has only one instance, and provides a global point of access to that instance.
+In this chapter, we will learn about the Singleton pattern. We will use this pattern to create a class that will manage the game state.
+
+## 🤨 What is the Singleton Pattern?
+
+The Singleton pattern is a creational design pattern that ensures that only one instance of a class exists and provides a global point of access to that instance.
 
 ## Problem 🤔
 
@@ -112,11 +116,41 @@ In this example, Singleton is a class that uses a static property called instanc
 
 The Singleton pattern requires special attention in a multi-threaded environment because it can lead to race conditions, where multiple threads try to create their own instances of the Singleton simultaneously.
 
-## Resources 📚
+## More Resources 📚
 
 - [Refactoring guru](https://refactoring.guru/design-patterns/singleton)
 - [Christopher Okhravi video](https://www.youtube.com/watch?v=hUE_j6q0LTQ)
 
-## Implementation example 🚀
+## Implementation 🚀
 
-- [Shopping cart](./index.js)
+Now that you know what the Singleton pattern is, let's implement it in our game.
+
+We will need to create a new class called `Game` that will be responsible for managing the game state. This class will be a Singleton, so we will need to implement the Singleton pattern.
+
+### Create the Game class
+
+Create a new file called `Game.js` in the `src` folder and add the following code:
+
+```js
+export default class Game {
+  static #instance;
+  constructor() {
+    if (Game.#instance) {
+      return Game.#instance;
+    }
+    Game.#instance = this;
+  }
+}
+```
+
+Pretty simple, right? We are using a static property called `#instance` to keep track of the singleton instance. The constructor checks if the `#instance` property is set, and if it is, it returns the instance. If the `#instance` property is not set, it sets it to the current instance and returns it.
+
+### Create the Game instance
+
+Now that we have the `Game` class, we need to create an instance of it. Create a new file called `index.js` in the `src` folder and add the following code:
+
+```js
+import Game from "./Game.js";
+
+const game = new Game();
+```

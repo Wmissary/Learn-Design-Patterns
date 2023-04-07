@@ -1,6 +1,8 @@
 # 🎓 Learn Design Patterns with Node.js 🎓
 
-Welcome to Learn Design Patterns! This is repository that I created to help myself learn how to use design patterns effectively in my projects, and to share my knowledge with others who are interested in learning.
+Welcome to Learn Design Patterns! This is a repository that I created to help myself learn how to use design patterns effectively in my projects, and to share my knowledge with others who are interested in learning. In this repository, we will create a small Node.js game as we learn about different design patterns.
+
+**⚠️ Warning ⚠️:** This repository is a work in progress and will be updated a lot as I learn more about design patterns. If you have any suggestions or feedback, feel free to open an issue or a pull request.
 
 ## 🤨 What are Design Patterns?
 
@@ -12,15 +14,15 @@ I created this repository primarily to help myself learn and understand design p
 
 ## 💡 How Does This Repository Work?
 
-This repository is a collection of Node.js projects, each of which demonstrates a different design pattern. Each project comes with a README file that explains the problem the pattern solves and how it is implemented in the project.
+This repository is a collection of Node.js projects, each of which demonstrates a different design pattern. Each project comes with a README file that explains the problem the pattern solves and how it is implemented in the project. We will use these design patterns to build a small game as we progress through the repository.
 
 ## 🚀 Getting Started
 
-To get started, simply clone this repository to your local machine and explore the projects in the `Patterns` directory. Each project is a standalone Node.js application that demonstrates a specific design pattern.
+To get started, simply clone this repository to your local machine and navigate to the patterns directory. Each subdirectory contains a Node.js project that implements a specific design pattern in the context of a simple game. As you progress through the different design patterns, you will build up the components of a complete game. Have fun and happy coding!
 
 ## 📚 Table of Contents
 
-- [Singleton](patterns/singleton/)
+- [Chapter 1: Singleton](patterns/chapter-1-singleton/)
 - [Strategy](patterns/strategy/)
 
 ## 🤝 Contributing
