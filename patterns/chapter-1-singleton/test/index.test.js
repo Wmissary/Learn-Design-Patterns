@@ -3,7 +3,7 @@ import assert from "node:assert";
 
 import Game from "../src/Game.js";
 
-describe("ShopingCart", () => {
+describe("Game class", () => {
   it("Should be a singleton", () => {
     const cart1 = new Game();
     const cart2 = new Game();
